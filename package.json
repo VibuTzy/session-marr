@@ -1,0 +1,24 @@
+{
+  "name": "session-marr",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "@whiskeysockets/baileys": "latest",
+    "pino": "latest",
+    "jszip": "latest"
+  }
+}
